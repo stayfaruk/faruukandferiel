@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #cca5cc, #cda4f7);    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.butterfly-cases {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.butterfly-case {
+    width: 200px;
+    height: 100px;
+    background-color: #508fc2;
+    color: #0c0c0c;
+    border: 2px solid #080708;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 10px; /* Ajoute un peu de padding pour éviter que le texte touche les bords */
+    box-sizing: border-box; /* Assure que le padding est inclus dans la taille de l'élément */
+}
+
+.butterfly-case:hover {
+    background-color: #b66ce1;
+    transform: scale(1.1);
+}
+
+.text-display {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
